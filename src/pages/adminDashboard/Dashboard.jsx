@@ -1,6 +1,6 @@
 import React from 'react'
 import './Dashboard.css'
-import { Link, Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo from '../../images/logo.png'
 import AddProduct from '../../components/addProduct/AddProduct'
 import Category from '../../components/addCategory/Category'
@@ -20,8 +20,8 @@ function Dashboard() {
         </div>
     </div>
     <div className='section'>
-        <Category/>
-        {/* <AddProduct/> */}
+        {/* <Category/> */}
+        <AddProduct/>
         {/* <Outlet/> */}
     </div>
 </div>

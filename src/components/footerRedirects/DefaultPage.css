@@ -18,3 +18,9 @@
     font-size: 14px;
     color: rgb(217, 217, 217);
 }
+
+@media screen and (max-width:768px) {
+    .default-page{
+        width: 90%;
+    }
+}

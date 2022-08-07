@@ -26,7 +26,7 @@ function AnimatedRoutes(props) {
                 <Route path='/about' element={<AboutPage />}/>
                 <Route path='/login' element={ authorization ? <Dashboard/> : <AdminLoginPage setAuthorization={setAuthorization}/>}/>
                 <Route path='/my-favourite' element={ authorization ? <Dashboard/> : <AdminLoginPage setAuthorization={setAuthorization}/>}/>
-                <Route path='/privacy-policy' element={<DefaultPage title={"Privacy Policy"}/>}/>
+                <Route path='/footer-redirects' element={<DefaultPage/>}/>
         </Routes>
     </AnimatePresence>
   )

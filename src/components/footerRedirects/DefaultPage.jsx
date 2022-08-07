@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import context from '../../context/context'
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
 import './DefaultPage.css'
 
-function DefaultPage(props) {
+function DefaultPage(){
+  const { pageTitle } = useContext(context)
   return (
       <>
         <Header/>
     <div className='default-page'>
-        <h2>{props.title}</h2>
+        <h2>{pageTitle}</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repudiandae, libero.</p><br/>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id nesciunt possimus eveniet recusandae ea. Natus harum iure rem, fuga blanditiis eius culpa debitis nobis officia voluptates enim molestiae exercitationem!</p>
         <br/>

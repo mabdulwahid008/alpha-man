@@ -189,8 +189,11 @@ const ContextState = (props)=>{
 
     // cart updated 
     const [cartUpdated, setCartUpdated] = useState(false)
+
+    // page title for footer redirects
+    const [pageTitle, setPageTitle] = useState("")
     return(
-        <context.Provider value={{fetchAllProducts, products, login, getCatgories, categories, addProduct, fetchProductByPrice, fetchProductByCategory, selectedProduct, setselectedProduct, addCatefory, addToCart, notificationMsg, cart, removeProduct, totalBill, countBill, tax, setNotificationMsg, category, setCategory, getDiscount, grandTotals, setGrandTotals, grandTotal, setCart, cartUpdated, setCartUpdated }}>
+        <context.Provider value={{fetchAllProducts, products, login, getCatgories, categories, addProduct, fetchProductByPrice, fetchProductByCategory, selectedProduct, setselectedProduct, addCatefory, addToCart, notificationMsg, cart, removeProduct, totalBill, countBill, tax, setNotificationMsg, category, setCategory, getDiscount, grandTotals, setGrandTotals, grandTotal, setCart, cartUpdated, setCartUpdated, pageTitle, setPageTitle }}>
             {props.children}
         </context.Provider>
     )
