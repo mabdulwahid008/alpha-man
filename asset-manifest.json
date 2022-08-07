@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/alpha-man/static/css/main.87db7fbb.css",
+    "main.js": "/alpha-man/static/js/main.673456c0.js",
+    "static/js/787.695eb27f.chunk.js": "/alpha-man/static/js/787.695eb27f.chunk.js",
+    "static/media/img4.jpg": "/alpha-man/static/media/img4.16920632463d7da37512.jpg",
+    "static/media/glasses.jpg": "/alpha-man/static/media/glasses.1a41fd3a62891e1b3da7.jpg",
+    "static/media/tie.jpg": "/alpha-man/static/media/tie.68b8cfd869078a7fc8ee.jpg",
+    "static/media/aboutt.jpg": "/alpha-man/static/media/aboutt.4b9ce5043b3382c19ea3.jpg",
+    "static/media/hero.jpg": "/alpha-man/static/media/hero.329fe725c1e8637a41cc.jpg",
+    "static/media/perfume.jpg": "/alpha-man/static/media/perfume.9ff9d765b681365514ee.jpg",
+    "static/media/watch.jpg": "/alpha-man/static/media/watch.2d7285f03321980a9ca3.jpg",
+    "static/media/img5.png": "/alpha-man/static/media/img5.b44be73b37f10558ec62.png",
+    "static/media/img3.png": "/alpha-man/static/media/img3.99eacf2c0d92a6c7be9c.png",
+    "static/media/img6.png": "/alpha-man/static/media/img6.743d942508c567531980.png",
+    "static/media/img2.png": "/alpha-man/static/media/img2.d26b1280bcb7e51f2fb0.png",
+    "static/media/img1.png": "/alpha-man/static/media/img1.3d2f5f0c52cfa4a03792.png",
+    "static/media/suits.jpg": "/alpha-man/static/media/suits.a89b26abaa013e9dc5a9.jpg",
+    "static/media/bangles.jpg": "/alpha-man/static/media/bangles.7f5dbd76bdfa57137321.jpg",
+    "static/media/jeans.jpg": "/alpha-man/static/media/jeans.270dd0bbfe4e0b7b89fa.jpg",
+    "static/media/bag.jpeg": "/alpha-man/static/media/bag.f3a2b922e7343357b298.jpeg",
+    "static/media/blazers.jpg": "/alpha-man/static/media/blazers.17f6254d6979898012b3.jpg",
+    "static/media/logo.png": "/alpha-man/static/media/logo.5e5eb14915d457890c45.png",
+    "static/media/trench.jpg": "/alpha-man/static/media/trench.cb29280a7feccacebc57.jpg",
+    "static/media/shirt.jpg": "/alpha-man/static/media/shirt.cf797f4afdfeb3954aea.jpg",
+    "static/media/shoes.jpg": "/alpha-man/static/media/shoes.a8d27558f54839a2bb73.jpg",
+    "static/media/productDefault.jpg": "/alpha-man/static/media/productDefault.8e069d9d8b4c3dae2932.jpg",
+    "index.html": "/alpha-man/index.html",
+    "main.87db7fbb.css.map": "/alpha-man/static/css/main.87db7fbb.css.map",
+    "main.673456c0.js.map": "/alpha-man/static/js/main.673456c0.js.map",
+    "787.695eb27f.chunk.js.map": "/alpha-man/static/js/787.695eb27f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87db7fbb.css",
+    "static/js/main.673456c0.js"
+  ]
+}
