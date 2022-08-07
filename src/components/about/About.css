@@ -1,0 +1,57 @@
+.about{
+    background-image: url('../../images/aboutt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 627px;
+    margin-top: -120px;
+}
+.about>.overlay{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.397));
+}
+.about>.overlay>h2{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500px;
+}
+.about>.overlay>h2>span{
+    color: var(--yellow);
+}
+.about>.overlay>p{
+    text-align: left;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 500;
+}
+.about>.overlay>p:nth-of-type(2){
+    font-size: 16px;
+}
+
+@media screen and (max-width:768px) {
+    .about{
+        height: 690px;
+    }
+    .about>.overlay{
+        height: 500px;
+    }
+    .about>.overlay>h2{
+        font-size: 30px;
+    }
+    .about>.overlay{
+        padding: 110px 20px 50px 20px;
+    }
+    .about>.overlay>p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .about>.overlay>p:nth-of-type(2){
+        font-size: 14px;
+    }
+}

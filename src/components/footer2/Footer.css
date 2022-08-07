@@ -1,0 +1,39 @@
+.footer-section{
+    background-color: var(--lightBlack);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px 0 50px 0;
+}
+.footer-section>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-section>div>i{
+    font-size: 60px;
+    color: var(--yellow);
+    cursor: pointer;
+}
+.footer-section>div>p{
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-section{
+        padding: 50px 30px;
+        gap: 20px;
+    }
+    .footer-section>div{
+        gap: 20px;
+    }
+    .footer-section>div>i{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,89 @@
+.checkout{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    width: 80%;
+    margin: 10px auto;
+}
+.checkout-left{
+    background-color: var(--lightBlack);
+    padding: 10px 20px;
+    border-radius: 10px;
+    flex: 2;
+}
+.checkout-right{
+    background-color: var(--lightBlack);
+    padding: 10px 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+.checkout-left>h3,
+.checkout-right>h3{
+    font-size: 16px;
+    color: var(--yellow);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.row>div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.checkox-field{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 10px;
+}
+.checkox-field>label{
+    text-transform: capitalize;
+}
+.checkox-field>label>a{
+    text-decoration: underline;
+    color: var(--white);
+}
+.checkout-btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+label>span{
+    color: var(--yellow);
+}
+::placeholder{
+    color: rgb(99, 99, 99);
+}
+.checkout-left>form>div>label,
+.checkout-left>form>div>div>label{
+    text-transform: capitalize;
+}
+
+
+@media screen and (max-width:768px) {
+    .checkout{
+        flex-direction: column-reverse;
+        margin: 0px 10px;
+        margin-bottom: 40px;
+        width: 80%;
+        column-gap: 0px;
+    }
+    .checkout-left{
+        width: 100%;
+    }
+    .checkout-right{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+}

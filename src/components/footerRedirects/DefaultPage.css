@@ -1,0 +1,20 @@
+.default-page{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+.default-page>h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--yellow);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.default-page>p{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(217, 217, 217);
+}

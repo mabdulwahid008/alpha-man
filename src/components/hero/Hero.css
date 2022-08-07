@@ -1,0 +1,20 @@
+.hero{
+    background-image: url('../../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    z-index: 0;
+    margin-top: -140px;
+} 
+.overlay{
+    background-color: rgba(0, 0, 0, 0.579);
+    height: 574px;
+    padding: 150px 0 0 0;
+}
+
+@media screen and (max-width:768px) {
+    .overlay{
+        padding: 220px 0 0 0;
+        height: 500px;
+    }
+}

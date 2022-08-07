@@ -1,0 +1,34 @@
+#notification{
+    position: fixed;
+    top: 40px;
+    background-color: var(--lightBlack);
+    width: 320px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px var(--yellow);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: .5s ease-in;
+    z-index: 15;
+}
+.notification>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.notification>div>p{
+    color: var(--white);
+    align-self: flex-start;
+}
+.notification>div>i:hover{
+    cursor: pointer;
+    color: var(--yellow);
+}
+.notification>span{
+    height: 2px;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 5px;
+}
+

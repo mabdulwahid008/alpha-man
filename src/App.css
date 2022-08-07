@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Noto+Serif&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
+:root{
+    --styleFont : 'Cinzel Decorative', cursive;
+    --headingFont : 'Noto Serif', serif;
+    --paraFont : 'Poppins', sans-serif;
+    --baseColor : #000000f8;
+    --white : rgb(245, 245, 245);
+    --yellow : #D7B941;
+    --lightBlack : rgb(20, 20, 18);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    background-color: var(--baseColor);
+    color: var(--white);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--headingFont);
 }
 
-.App-link {
-  color: #61dafb;
+p{
+    font-family: var(--paraFont);
+    font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+    font-size: 14px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    border-radius: 12px;
+    border: 1px solid var(--yellow);
+    padding: 10px 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+label{
+    text-transform: capitalize;
+    font-family: var(--paraFont);
+    font-size: 13px;
+}
+
+input, textarea{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: var(--white);
+    background-color: black;
+    resize: none;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
 }
