@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import AnimatedRoutes from './AnimatedRoutes';
 import './App.css';
 import ContextState from './context/ContextState';
