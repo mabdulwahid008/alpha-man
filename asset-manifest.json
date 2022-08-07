@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alpha-man/static/css/main.87db7fbb.css",
-    "main.js": "/alpha-man/static/js/main.f1b9233a.js",
+    "main.css": "/alpha-man/static/css/main.ac104888.css",
+    "main.js": "/alpha-man/static/js/main.d3a29d9a.js",
     "static/js/787.695eb27f.chunk.js": "/alpha-man/static/js/787.695eb27f.chunk.js",
     "static/media/img4.jpg": "/alpha-man/static/media/img4.16920632463d7da37512.jpg",
     "static/media/glasses.jpg": "/alpha-man/static/media/glasses.1a41fd3a62891e1b3da7.jpg",
@@ -26,12 +26,12 @@
     "static/media/shoes.jpg": "/alpha-man/static/media/shoes.a8d27558f54839a2bb73.jpg",
     "static/media/productDefault.jpg": "/alpha-man/static/media/productDefault.8e069d9d8b4c3dae2932.jpg",
     "index.html": "/alpha-man/index.html",
-    "main.87db7fbb.css.map": "/alpha-man/static/css/main.87db7fbb.css.map",
-    "main.f1b9233a.js.map": "/alpha-man/static/js/main.f1b9233a.js.map",
+    "main.ac104888.css.map": "/alpha-man/static/css/main.ac104888.css.map",
+    "main.d3a29d9a.js.map": "/alpha-man/static/js/main.d3a29d9a.js.map",
     "787.695eb27f.chunk.js.map": "/alpha-man/static/js/787.695eb27f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87db7fbb.css",
-    "static/js/main.f1b9233a.js"
+    "static/css/main.ac104888.css",
+    "static/js/main.d3a29d9a.js"
   ]
 }
