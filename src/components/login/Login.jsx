@@ -21,21 +21,22 @@ function Login(props) {
     const navigat = useNavigate();
     const onSubmit = async(e)=>{
         e.preventDefault();
-        const response = await login(username, password);
-        if(response.message){
-            setErrorMsg(response.message)
+        // const response = await login(username, password);
+        // if(response.message){
+            // setErrorMsg(response.message)
+            setErrorMsg("No further things have been setted up")
             document.getElementById('error-msg').style.display = 'flex'
             setTimeout(() => {
                 document.getElementById('error-msg').style.display = 'none'
             }, 5000);
-        }
-        if(response.token){
-            console.log(response.token);
-            // document.cookie = 'token = ' + response.token
-            localStorage.setItem('token', response.token)
-            // navigat('/dashboard');
-            props.setAuthorization(true)
-        }
+        // }
+        // if(response.token){
+        //     console.log(response.token);
+        //     // document.cookie = 'token = ' + response.token
+        //     localStorage.setItem('token', response.token)
+        //     // navigat('/dashboard');
+        //     props.setAuthorization(true)
+        // }
         
     }
 
@@ -46,11 +47,11 @@ function Login(props) {
            <form onSubmit={onSubmit}>
                <div>
                     <label>Username</label>
-                    <input type="text" value={username} name='username' onChange={onChangeUsername}/>
+                    <input type="text" value={username} name='username' required onChange={onChangeUsername}/>
                </div>
                <div>
                     <label>Password</label>
-                    <input type="password" value={password} name='username' onChange={onChangePassword}/>
+                    <input type="password" value={password} name='username' required onChange={onChangePassword}/>
                </div>
                <button className="btn login-btn">Log In</button>
                <div className='error-msg'id='error-msg'>

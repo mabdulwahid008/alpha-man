@@ -12,7 +12,8 @@
     padding: 20px 30px;
     border: 1px solid var(--white);
     border-radius: 15px;
-    background-color: rgb(12, 12, 11);
+    /* background-color: rgb(12, 12, 11); */
+    background-color: var(--lightBlack);
 }
 .form>h2{
     font-size: 20px;
@@ -56,4 +57,11 @@ form>div>input{
 .error-msg>i{
     font-size: 16px;
     cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+    .login{
+        margin: 180px 20px;
+    }
 }

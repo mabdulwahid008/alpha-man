@@ -24,7 +24,8 @@ function AnimatedRoutes(props) {
                 <Route path='/cart' element={<CartPage setNotification={props.setNotification} />} />
                 <Route path='/checkout' element={<CheckoutPage setNotification={props.setNotification} />} />
                 <Route path='/about' element={<AboutPage />}/>
-                <Route path='/admin' element={ authorization ? <Dashboard/> : <AdminLoginPage setAuthorization={setAuthorization}/>}/>
+                <Route path='/login' element={ authorization ? <Dashboard/> : <AdminLoginPage setAuthorization={setAuthorization}/>}/>
+                <Route path='/my-favourite' element={ authorization ? <Dashboard/> : <AdminLoginPage setAuthorization={setAuthorization}/>}/>
                 <Route path='/privacy-policy' element={<DefaultPage title={"Privacy Policy"}/>}/>
         </Routes>
     </AnimatePresence>
